@@ -34,7 +34,6 @@
 | 🧩 **Reusable Components** | Clean, modular components used across the app |
 | 🎛️ **Controlled Inputs** | Third-party components managed using React Hook Form controllers |
 
----
 
 ## 🛠️ Tech Stack
 
@@ -44,8 +43,6 @@ State Management  →   Redux Toolkit
 Styling           →   Tailwind CSS v4.2
 Backend           →   Appwrite (Auth · Database · Storage)
 ```
-
----
 
 ## 🏗️ Project Structure
 
@@ -74,8 +71,6 @@ src/
 └── App.jsx             # App entry with routing
 ```
 
----
-
 ## 🔐 Appwrite Services
 
 ### 1. Authentication
@@ -100,7 +95,6 @@ src/
 - **Protected routes** — Add Post, Edit Post, and All Posts
 - Users who are not logged in are automatically redirected to `/login`
 
----
 
 ## 🎛️ Controller Pattern
 
@@ -146,8 +140,6 @@ VITE_TINY_MCE_KEY=
 ```bash
 npm run dev
 ```
-
----
 
 ## 💡 Key Learnings
 
